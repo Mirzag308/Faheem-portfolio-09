@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="stylesheet"  href="project.css">
+    <link rel="stylesheet"  href="skill.css">
+    <link rel="stylesheet"  href="about.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="hero">
+
+        <nav>
+            <div class="main-logo-F">
+            <a href="#">
+                <img src="logo3.png" alt="logo">            
+            </a>
+                <h2 class="logo">Faheem<span>.Ashraf</span></h2>
+            </div>
+            <!-- Toggle menu icon -->
+            <div class="hamburger" onclick="toggleMenu()">☰</div>
+        
+            <!-- ✅ Add class="nav-links" here -->
+            <ul class="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Skills">My Skills</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Home">Contact us</a></li>
+            </ul>
+        
+            <div class="resume-button">
+                <a href="Faheemcv005.pdf">
+                    <button class="btn poppins">RESUME</button>
+                </a>
+            </div>    
+            <a href="Faheemcv005.pdf" download>
+            </a>
+        </nav>
+        <script>
+            function toggleMenu() {
+                const navLinks = document.querySelector('.nav-links');
+                navLinks.classList.toggle('active');
+            }
+        </script>
+        
+
+        <div class="content_section_Home">
+            <section id="Home">
+            <div class="main_head">
+                <h4>Hey I,am</h4>
+                <h2>Faheem Ashraf.</h2>
+                <h5>FULL STACK WEB DEVELOPER</h5>
+                <a href="https://wa.me/923254851252" target="blank">
+                    <button3 class="btn-poppins3"> Contact us</button3>
+                </a>
+            
+            </div>
+            <div class="main_head2">
+                <a href="personalpic">
+                    <img src="mypic6.png" alt="coverinphoto">
+                </a>
+
+                <img src="cover.png" alt="cover_photo">
+            </div>
+            </section>
+        </div>
+    </div>
+<!-- <br>
+<br>
+<br> -->
+
+    <!-- Project Section  -->
+  <!-- Project Section -->
+<div class="content_section_Projects">
+    <section id="Projects">
+        <div class="Main_Projects">
+            <div class="Project">
+                <h1>My Projects</h1>
+                <h2 class="headingline">------------------------------------</h2>
+
+                <!-- BOX 1 -->
+                <div class="box1">
+                    <img src="project1.jpeg" alt="projectpic1">
+                    <a href="javascript:void(0);">
+                        <h2 class="box1_content_heading"> Number_Guess.Game</h2>
+                        <p class="box1_paragraph">
+                            In this game you give the lower number and the higher number is given and then you have to guess the middle number,<br>
+                            In this game uses HTML, CSS, PYTHON languages, each using Django Framework.
+                        </p>
+                    </a>
+                </div>
+
+                <!-- BOX 2 -->
+                <div class="box2">
+                    <img src="project2.png" alt="projectpic2">
+                    <a href="javascript:void(0);">
+                        <h2 class="box2_content_heading">Remove vowels from a string</h2>
+                        <p class="box2_paragraph">
+                            In this game, if you insert any string, the vowels will be removed,<br>
+                            In this game uses HTML, CSS, PYTHON languages, each using Django Framework.
+                        </p>
+                    </a>
+                </div>
+
+                <!-- BOX 3 -->
+                <div class="box3">
+                    <a href="https://mirzag308.github.io/Login-page-01/">
+                        <img src="project3.png" alt="projectpic3">
+                    </a>
+                    <a href="javascript:void(0);">
+                        <h2 class="box3_content_heading">Login Page </h2>
+                        <p class="box3_paragraph">
+                            This Project is based on admin system,<br>
+                            In this project user have two types first is sign in and second is login
+                        </p>
+                    </a>
+                </div>
+
+                <!-- BOX 4 -->
+                <div class="box4">
+                    <a href="https://mirzag308.github.io/Header-html-css03/">
+                        <img src="project4.png" alt="projectpic4">
+                    </a>
+                    <a href="javascript:void(0);">
+                        <h2 class="box4_content_heading">Header</h2>
+                        <p class="box4_paragraph">
+                            This is a Header,<br>
+                            In this project I created a responsive header using HTML and CSS. Responsive designs & clean code showcasing creativity and functionality.
+                        </p>
+                    </a>
+                </div>
+
+                <!-- BOX 5 -->
+                <div class="box5">
+                    <a href="#">
+                        <img src="project5.png" alt="projectpic5">
+                    </a>
+                    <a href="javascript:void(0);">
+                        <h2 class="box4_content_heading">TO-Do-List</h2>
+                        <p class="box5_paragraph">
+                            This app has a note pad that you can write any of your notes and save it,<br>
+                            In this project I created a TODO app using HTML, CSS, Python, and Django.
+                        </p>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+
+    
+    <!-- Skills Section -->
+    <div class="content_section_skill">
+        <section id="Skills">
+        <div class="mainskill">
+            <h1>My Skills</h1>
+            <h2 class="headingline2">------------------------------</h2>
+
+            <div class="cards-wrapper">    
+                <div class="card-container">
+                <div class="card">
+                    <div class="img-content">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-miterlimit="2" stroke-linejoin="round" fill-rule="evenodd" clip-rule="evenodd"><path fill-rule="nonzero" d="m2 19v-14c0-.552.447-1 1-1 .542 0 4.418 2.028 9 2.028 4.593 0 8.456-2.028 9-2.028.55 0 1 .447 1 1v14c0 .553-.45 1-1 1-.544 0-4.407-2.028-9-2.028-4.582 0-8.458 2.028-9 2.028-.553 0-1-.448-1-1zm1.5-.791 6.449-7.691c.289-.344.879-.338 1.16.012 0 0 1.954 2.434 1.954 2.434l1.704-1.283c.319-.24.816-.168 1.054.154l4.679 6.335v-12.44c-1.58.58-4.819 1.798-8.5 1.798-3.672 0-6.918-1.218-8.5-1.799zm2.657-.834c1.623-.471 3.657-.903 5.843-.903 2.309 0 4.444.479 6.105.98l-3.041-4.117-1.065.802.275.344c.259.323.206.796-.117 1.054-.323.259-.795.207-1.054-.117l-2.591-3.236zm.698-9.534c-1.051 0-1.905.854-1.905 1.905s.854 1.904 1.905 1.904 1.904-.853 1.904-1.904-.853-1.905-1.904-1.905zm0 1.3c.333 0 .604.271.604.605 0 .333-.271.604-.604.604-.334 0-.605-.271-.605-.604 0-.334.271-.605.605-.605z"></path></svg>
+                    </div>
+                    <div class="content">
+                        <h2 class="heading">Fronted</h2>
+                        <h3>1- HTML </h3>
+                        <h3>2- CSS </h3>
+                        <h3>3- BOOTSTRAP</h3>
+                    </div>
+                </div>
+                </div>
+            
+                <div class="card-container">
+                <div class="card">
+                    <div class="img-content">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-miterlimit="2" stroke-linejoin="round" fill-rule="evenodd" clip-rule="evenodd"><path fill-rule="nonzero" d="m2 19v-14c0-.552.447-1 1-1 .542 0 4.418 2.028 9 2.028 4.593 0 8.456-2.028 9-2.028.55 0 1 .447 1 1v14c0 .553-.45 1-1 1-.544 0-4.407-2.028-9-2.028-4.582 0-8.458 2.028-9 2.028-.553 0-1-.448-1-1zm1.5-.791 6.449-7.691c.289-.344.879-.338 1.16.012 0 0 1.954 2.434 1.954 2.434l1.704-1.283c.319-.24.816-.168 1.054.154l4.679 6.335v-12.44c-1.58.58-4.819 1.798-8.5 1.798-3.672 0-6.918-1.218-8.5-1.799zm2.657-.834c1.623-.471 3.657-.903 5.843-.903 2.309 0 4.444.479 6.105.98l-3.041-4.117-1.065.802.275.344c.259.323.206.796-.117 1.054-.323.259-.795.207-1.054-.117l-2.591-3.236zm.698-9.534c-1.051 0-1.905.854-1.905 1.905s.854 1.904 1.905 1.904 1.904-.853 1.904-1.904-.853-1.905-1.904-1.905zm0 1.3c.333 0 .604.271.604.605 0 .333-.271.604-.604.604-.334 0-.605-.271-.605-.604 0-.334.271-.605.605-.605z"></path></svg>
+                    <!-- Insert your SVG or Image here -->
+                    </div>
+                    <div class="content">
+                    <h2 class="heading">Backend</h2>
+                    <!-- <p>Description for Card 2.</p> -->
+                    <h3>1- PYTHON </h3>
+                    <h3>2- JAVASCRIPT </h3>
+                    <h3>3- MYSQL</h3>
+                    <h3>4- GITHUB</h3>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+        </div>  
+        </section>
+    </div>
+
+    <!-- Section About us -->
+    <div class="content_section">
+        <section id="About">
+
+        <div class="main_about">
+            <h1>About us</h1>
+            <h2 class="headingline2">----------------------------</h2>
+            <div class="main_about_box">
+                <div class="about-content">
+                    <h4 class="aboutme-text">
+                        Hello, I'm <span>Mirza Faheem Ashraf</span>, a skilled <span>Web Development</span> Expert with
+                        5 months of Personal experience. I am create some <span>projects.</span> I am proficient 
+                        in various web technologies such as Python, Bootstrap, 
+                        <span>HTML5, and CSS3 and Django Framework.</span> I can take on any project.
+                        Because I believe in <span>--ALLAH--  .</span>  
+                        Contact Mog so we can make some amazing projects together
+                    </h4>
+                    <a href="mailto:ashraffaheem612@gmail.com" >
+                        <button class="btn poppins">Mail</button>
+                    </a>
+                </div>
+                <a href="javascript:void(0);">
+
+                    <a href="javascript:void(0);">
+                        <img src="about1.png" alt="about-pic">
+                    </a>
+                </a>    
+        </div>
+
+
+
+        </section>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Main_Projects {
+    margin-left: 10%;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Main_Projects Project {
+    height: 95vh;
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* color: aliceblue; */
+}
+
+
+
+.Project h1{
+    color: #fff4f4;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-right: 90px;
+    margin-top: 0px;
+    padding: 50px 10px 0px 0px ;
+    /* padding-bottom: .2rem; */
+    border-bottom-width: 2px;
+    /* margin-bottom: 1rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+.headingline{
+    color: #ff8921;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 2.8rem;
+    margin-right: 100px;
+}
+
+.box1 {
+    height: 295px;
+    width: 90%;
+    /* border: solid 3px rgb(179, 81, 15); */
+    /* background: transparent; */
+    /* background-color: rgb(79, 34, 16); */
+    border-radius: 5px;
+}
+
+.box1:hover{
+    background-image: linear-gradient(45deg ,#5c460c, #420e0e);
+    /* background: rgb(67, 29, 4); */
+    transition: .90s;
+}
+
+.box1 img{
+    margin-top: 24.8cm;
+    margin-left: 542px;
+    height: 40vh;
+    width: 44%;
+    display: flex;
+    /* flex-direction: column; */
+    border: solid 3px rgb(141, 61, 8);
+    border-radius: 10px;
+}
+
+
+
+.box1 a{
+    /* margin: 0;
+    padding: 0; */
+    color: #fff4f4;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.box1_content_heading{
+    font-family: "Outfit", sans-serif;
+    margin-top: 38px;
+    margin-left: 30px;
+    height: 50px;
+    width: 300px;
+    text-align:center;
+    color:#fff4f4;
+    font-size: 2rem;
+}
+
+.box1_paragraph{
+    margin-left: 30px;
+    margin-top: 19px;
+    width: 330px;
+    font-size: 1.2rem;
+
+}
+
+/*////////////////////.................. BOX2 SECTION...............////////////////// */
+
+.box2 {
+    color:white;
+    height: 295px;
+    width: 90%;
+    /* border: solid 3px rgb(179, 81, 15); */
+    /* background: transparent; */
+    /* background-color: rgb(67, 29, 4); */
+    border-radius: 5px;
+}
+
+.box2 img{
+    margin-top: 32.6cm;
+    margin-left: 542px;
+    height: 40vh;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px rgb(141, 61, 8);
+    border-radius: 10px;
+}
+
+.box2:hover{
+    /* background: rgb(67, 29, 4); */
+    background-image: linear-gradient(45deg ,#5c460c, #420e0e);
+    transition: .90s;
+}
+
+
+.box2 a{
+    /* margin: 0;
+    padding: 0; */
+    color: #fff4f4;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.box2_content_heading{
+    font-family: "Outfit", sans-serif;
+    margin-top: 35px;
+    margin-left: 12px;
+    /* height: 10px; */
+    /* width: 300px; */
+    /* text-align:center; */
+    color:#fff4f4;
+    font-size: 1.7rem;
+}
+
+.box2_paragraph{
+    margin-left: 12px;
+    margin-top: 15px;
+    width: 390px;
+    font-size: 1.2rem;
+}
+
+
+/*////////////////////.................. BOX3 SECTION...............////////////////// */
+
+
+.box3 {
+    color:white;
+    height: 295px;
+    width: 90%;
+    /* border: solid 3px rgb(179, 81, 15); */
+    /* background: transparent; */
+    /* background-color: rgb(102, 43, 8); */
+    border-radius: 5px;
+}
+
+.box3 img{
+    margin-top: 40.4cm;
+    margin-left: 542px;
+    height: 40vh;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px rgb(141, 61, 8);
+    border-radius: 10px;
+}
+
+.box3:hover{
+    background-image: linear-gradient(45deg ,#5c460c, #420e0e);
+    /* background: rgb(67, 29, 4); */
+    transition: .90s;
+}
+
+
+.box3 a{
+    /* margin: 0;
+    padding: 0; */
+    color: #fff4f4;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.box3_content_heading{
+    font-family: "Outfit", sans-serif;
+    margin-top: 35px;
+    margin-left: 22px;
+    /* height: 10px; */
+    /* width: 300px; */
+    /* text-align:center; */
+    color:#fff4f4;
+    font-size: 2rem;
+}
+
+.box3_paragraph{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 340px;
+    font-size: 1.2rem;
+}
+
+
+/* BOX 4...................///////////// */
+
+.box4 {
+    color:white;
+    height: 295px;
+    width: 90%;
+    /* border: solid 3px rgb(179, 81, 15); */
+    /* background: transparent; */
+    /* background-color: rgb(102, 43, 8); */
+    border-radius: 5px;
+}
+
+.box4 img{
+    margin-top: 48.1cm;
+    margin-left: 542px;
+    height: 40vh;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px rgb(141, 61, 8);
+    border-radius: 10px;
+}
+
+.box4:hover{
+    background-image: linear-gradient(45deg ,#5c460c, #420e0e);
+    /* background: rgb(67, 29, 4); */
+    transition: .90s;
+}
+
+
+.box4 a{
+    /* margin: 0;
+    padding: 0; */
+    color: #fff4f4;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+/* .box4 a:hover{
+    text-decoration: none;
+} */
+
+.box4_content_heading{
+    font-family: "Outfit", sans-serif;
+    margin-top: 35px;
+    margin-left: 22px;
+    text-decoration: none;
+    /* height: 10px; */
+    /* width: 300px; */
+    /* text-align:center; */
+    color:#fff4f4;
+    font-size: 2rem;
+}
+
+.box4_paragraph{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 340px;
+    font-size: 1.2rem;
+    text-decoration: none; 
+}
+
+
+/* BOX 5...............//////////////////// */
+
+.box5 {
+    color:white;
+    height: 295px;
+    width: 90%;
+    /* border: solid 3px rgb(179, 81, 15); */
+    /* background: transparent; */
+    /* background-color: rgb(102, 43, 8); */
+    border-radius: 5px;
+}
+
+.box5 img{
+    margin-top: 56cm;
+    margin-left: 542px;
+    height: 40vh;
+    width: 44%;
+    display: flex;
+    flex-direction: column;
+    border: solid 3px rgb(141, 61, 8);
+    border-radius: 10px;
+}
+
+.box5:hover{
+    background-image: linear-gradient(45deg ,#5c460c, #420e0e);
+    /* background: rgb(67, 29, 4); */
+    transition: .90s;
+}
+
+
+.box5 a{
+    /* margin: 0;
+    padding: 0; */
+    color: #fff4f4;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+/* .box4 a:hover{
+    text-decoration: none;
+} */
+
+.box5_content_heading{
+    font-family: "Outfit", sans-serif;
+    margin-top: 35px;
+    margin-left: 22px;
+    text-decoration: none;
+    /* height: 10px; */
+    /* width: 300px; */
+    /* text-align:center; */
+    color:#fff4f4;
+    font-size: 2rem;
+}
+
+.box5_paragraph{
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 340px;
+    font-size: 1.2rem;
+    text-decoration: none; 
+}
+
+@media (max-width: 768px) {
+
+    .Project h1 {
+        font-size: 2.3rem;
+        margin-right: 0;
+        padding: 30px 10px 0 10px;
+        text-align: center;
+    }
+
+    .headingline {
+        font-size: 1rem;
+        margin-right: 0;
+        padding-bottom: 1rem;
+        padding: 0px 0px 0 98px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .Main_Projects {
+        margin-left: 0;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5 {
+        width: 95%;
+        /* height: auto; */
+        height: 330px;
+        margin-bottom: 20px;
+    }
+
+    .box1 img{
+        height: auto ;
+        margin-left: 19%;
+        margin-top: 27cm;
+        width:  290px;
+    }
+    .box2 img{
+        height: auto ;
+        margin-left: 19%;
+        margin-top: 35.67cm;
+        width:  290px;
+    }
+    .box3 img{
+        height: auto ;
+        margin-left: 19%;
+        margin-top: 44.2cm;
+        width:  290px;
+    }
+    .box4 img{
+        height: auto ;
+        margin-left: 19%;
+        margin-top: 54.3cm;
+        width:  290px;
+    }
+    .box5 img{
+        height: auto ;
+        margin-left: 19%;
+        margin-top: 63.5cm;
+        width:  290px;
+    }
+
+    .box1_content_heading,
+    .box2_content_heading,
+    .box3_content_heading,
+    .box4_content_heading,
+    .box5_content_heading {
+        margin: 20px auto 10px auto;
+        text-align: center;
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .box1_paragraph,
+    .box2_paragraph,
+    .box3_paragraph,
+    .box4_paragraph,
+    .box5_paragraph {
+        width: 90%;
+        margin: 10px auto;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
